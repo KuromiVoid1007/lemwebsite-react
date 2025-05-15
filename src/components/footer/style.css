@@ -1,0 +1,39 @@
+/* footer */
+
+.footer{
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+.footer-item p {
+    color: #202020;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.social-stec{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+.social-stec a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: lowercase;
+    color: #202020;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.social-stec a:hover{
+    color: #77dd77; 
+    
+}
+.icon{
+    color: #202020;
+}

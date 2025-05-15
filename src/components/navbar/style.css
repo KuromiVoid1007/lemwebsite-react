@@ -1,0 +1,45 @@
+/* nav */
+
+.nav{
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.nav-bar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar span {
+    font-size: 20px;
+    margin-right: 100px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #323232;
+    font-size: 20px;
+}
+
+.nav-bar-left{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav-bar-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.nav-bar-right span {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+.profile-icon{
+    font-size: 35px;
+    margin-top: 2px;
+}

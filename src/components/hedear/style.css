@@ -1,0 +1,45 @@
+/* header */
+.header{
+    height: 100%;
+}
+
+.header-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.header-title{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.header-img{
+    width: 50%;
+    height: 450px;
+    background: #fff;
+    border-radius: 40px;
+}
+
+.header-card h2 {
+    margin: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-card p {
+    color: #fff;
+}
+
+.header-card a {
+    color: #323232;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+}
